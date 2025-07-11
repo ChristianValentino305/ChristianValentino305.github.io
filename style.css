@@ -39,3 +39,42 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: medium;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #153e7a;
+
+}
+footer.contact_footer {
+  background: #0a192f;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+
+}
+footer.contact_footer p {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+footer.contact_footer .separator {
+  color: #fff;
+
+}
