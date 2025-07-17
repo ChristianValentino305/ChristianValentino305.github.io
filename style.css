@@ -12,6 +12,7 @@ html body {
   padding: 0;
   height: 100%
 }
+
 /* Header Styles */
 header.hero {
   background-image: url('siteImages/Resized_20230812_185223 (1).JPEG');
@@ -57,6 +58,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Main nav bar */
 nav ul{
   display: flex;
   justify-content: center;
