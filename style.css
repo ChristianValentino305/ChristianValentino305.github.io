@@ -138,3 +138,30 @@ footer.contact_footer .separator {
 
 }
 
+/* Resume Download Button */
+
+
+.resume-download {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size : 1.2rem;
+  font-weight: 500;
+  background-color: #0a192f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;;
+
+}
+.resume-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume-download:hover {
+  background-color: #393f42;
+  color: #0a192f;
+}
