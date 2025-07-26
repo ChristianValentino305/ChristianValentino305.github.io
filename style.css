@@ -31,6 +31,28 @@ header.hero {
 }
 
 
+/* Main nav bar */
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: large;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #153e7a;
+
+}
+
+
 /* Header Styles for Non-Landing Pages */
 header.navbar {
   background-color: #0a192f;
@@ -95,26 +117,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Main nav bar */
-nav ul{
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 30px;
-}
 
-nav a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: medium;
-  font-weight: 500;
-}
-nav a:hover {
-  color: #153e7a;
-
-}
 
 /* Footer with contact information */
 footer.contact_footer {
