@@ -1,5 +1,5 @@
 body {
-  font-family: system-ui, sans-serif;
+  font-family: 'Neuton', serif;
   margin: 0;
   padding: 0;
   background: #fdfdfd;
@@ -28,6 +28,31 @@ header.hero {
   padding: 0 1rem;
   color: white;
   position: relative;
+}
+
+/* Landing Page Nav Bar */
+
+header.hero nav {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  text-align: center;
+}
+header.hero nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+header.hero nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+header.hero nav a:hover {
+  color: #153e7a;
 }
 
 
@@ -93,7 +118,7 @@ header.navbar .brand {
 
 .tagline {
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 section {
